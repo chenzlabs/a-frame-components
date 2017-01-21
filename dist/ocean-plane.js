@@ -32,4 +32,18 @@ AFRAME.registerPrimitive('a-ocean-plane', {
 		},
 		'wobble-normal': {}
 	},
+
+	mappings: {
+		color: 'material.color',
+		height: 'geometry.height',
+		metalness: 'material.metalness',
+		normalMap: 'material.normalMap',
+		normalScale: 'material.normalScale',
+		normalTextureOffset: 'material.normalTextureOffset',
+		normalTextureRepeat: 'material.normalTextureRepeat',
+		opacity: 'material.opacity',
+		roughness: 'material.roughness',
+		sphericalEnvMap: 'material.sphericalEnvMap',
+		width: 'geometry.width'
+	}
 });
